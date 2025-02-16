@@ -1,0 +1,17 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "Chat server for Magic Number Game",
+  "main": "chatserver.js",
+  "scripts": {
+    "start": "node chatserver.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "0.0.1-security",
+    "socket.io": "^4.5.4",
+    "cors": "^2.8.5",
+    "bad-words": "^3.0.4",
+    "express-rate-limit": "^6.7.0"
+  }
+}
